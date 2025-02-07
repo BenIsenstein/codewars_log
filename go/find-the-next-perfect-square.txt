@@ -1,0 +1,5 @@
+Find the next perfect square!
+
+56269eb78ad2e4ced1000013
+
+Completed: January 22, 2024 at 4:54:58 PM UTC

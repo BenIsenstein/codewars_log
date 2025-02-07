@@ -1,0 +1,5 @@
+Find Maximum and Minimum Values of a List
+
+577a98a6ae28071780000989
+
+Completed: March 11, 2021 at 7:47:37 AM UTC
