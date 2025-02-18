@@ -1,3 +1,3 @@
 # Training go on Codewars
 
-I have trained 23 problems in go on codewars.com.
+I have trained 24 problems in go on codewars.com.
