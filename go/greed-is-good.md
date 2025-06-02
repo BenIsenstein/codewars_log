@@ -17,7 +17,7 @@ Greed is a dice game played with five six-sided dice. Your mission, should you c
  One   5   =>   50 point
 ```
 
-A single die can only be counted once in each roll. For example, a given "5" can only count as part of a 
+Each of 5 dice can only be counted once in each roll. For example, a given "5" can only count as part of a 
 triplet (contributing to the 500 points) or as a single 50 points, but not both in the same roll.
 
 Example scoring
@@ -33,9 +33,9 @@ Example scoring
 ~~~if:python
 Note: your solution must not modify the input list.
 ~~~
-~~~if:coffeescript,csharp,javascript,kotlin,php,ruby,typescript,lua
+~~~if:coffeescript,csharp,java,javascript,kotlin,lua,php,ruby,typescript
 Note: your solution must not modify the input array.
 ~~~
-~~~if-not:coffeescript,csharp,go,javascript,kotlin,php,python,ruby,typescript,lua
-In some languages, it is possible to mutate the input to the function. This is something that you should never do. If you mutate the input, you will not be able to pass all the tests.
+~~~if:lua
+Note: your solution must not modify the input table.
 ~~~
