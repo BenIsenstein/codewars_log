@@ -80,3 +80,8 @@ strip-comments ! "apples, pears\ngrapes\nbananas"
 val res = stripComments("apples, pears # and bananas\ngrapes\nbananas !apples", Set('#', '!'))
 // res should be "apples, pears\ngrapes\nbananas"
 ```
+
+```php
+$result = stripComments("apples, pears # and bananas\ngrapes\nbananas !apples", ['#', '!']);
+// $result should be "apples, pears\ngrapes\nbananas"
+```
