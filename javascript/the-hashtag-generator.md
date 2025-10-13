@@ -9,23 +9,27 @@ Let's help them with our own Hashtag Generator!
 
 Here's the deal:
 
-~~~if-not:cpp
 - It must start with a hashtag (`#`).
 - All words must have their first letter capitalized.
+
+~~~if-not:cpp,rust
 - If the final result is longer than 140 chars it must return `false`.
 - If the input or the result is an empty string it must return `false`.
 ~~~
 
 ~~~if:cpp
-- It must start with a hashtag (`#`).
-- All words must have their first letter capitalized.
 - If the final result is longer than 140 chars it must return `std::nullopt`.
 - If the input or the result is an empty string it must return `std::nullopt`.
 ~~~
 
+~~~if:rust
+- If the final result is longer than 140 chars it must return `None`.
+- If the input or the result is an empty string it must return `None`.
+~~~
+
 ## Examples
 
-~~~if-not:cpp
+~~~if-not:cpp,rust
 ```
 " Hello there thanks for trying my Kata"  =>  "#HelloThereThanksForTryingMyKata"
 "    Hello     World   "                  =>  "#HelloWorld"
@@ -41,3 +45,10 @@ Here's the deal:
 ```
 ~~~
 
+~~~if:rust
+```
+" Hello there thanks for trying my Kata"  =>  Some("#HelloThereThanksForTryingMyKata")
+"    Hello     World   "                  =>  Some("#HelloWorld")
+""                                        =>  None
+```
+~~~
