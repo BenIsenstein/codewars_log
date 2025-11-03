@@ -10,7 +10,7 @@ Let's help them with our own Hashtag Generator!
 Here's the deal:
 
 - It must start with a hashtag (`#`).
-- All words must have their first letter capitalized.
+- All words must have their first letter capitalized, and remaining letters lowercased.
 
 ~~~if-not:cpp,rust
 - If the final result is longer than 140 chars it must return `false`.
