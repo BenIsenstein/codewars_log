@@ -1,3 +1,3 @@
 # Training python on Codewars
 
-I have trained 23 problems in python on codewars.com.
+I have trained 24 problems in python on codewars.com.
