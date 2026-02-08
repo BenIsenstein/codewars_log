@@ -33,7 +33,7 @@ Example scoring
 ~~~if:python
 Note: your solution must not modify the input list.
 ~~~
-~~~if:coffeescript,csharp,java,javascript,kotlin,lua,php,ruby,typescript
+~~~if:coffeescript,csharp,java,javascript,kotlin,lua,php,ruby,typescript,vb
 Note: your solution must not modify the input array.
 ~~~
 ~~~if:lua
