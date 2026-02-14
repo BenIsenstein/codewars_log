@@ -23,12 +23,6 @@ Write the output numbers into the `out` parameter, and return its length.
 The input array will contain only integers between 1 and 50 inclusive. Use it to your advantage.
 ~~~
 
-~~~if:c
-For C:
-* Assign the return array length to the pointer parameter `*szout`.
-* Do not mutate the input array.
-~~~
-
 ~~~if:lambdacalc
 ## Encodings
 
