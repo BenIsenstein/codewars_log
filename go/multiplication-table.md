@@ -21,7 +21,3 @@ For the given example, the return value should be:
 ```julia
 [1 2 3; 2 4 6; 3 6 9]
 ```
-
-```if:c
-Note: in C, you must return an allocated table of allocated rows
-```
