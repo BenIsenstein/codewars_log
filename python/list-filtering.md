@@ -38,3 +38,8 @@ filterList(ListOf(1, 2, "a", "b")) == [1, 2]
 filterList(ListOf(1, "a", "b", 0, 15)) == [1, 0, 15]
 filterList(ListOf(1, 2, "a", "b", "aasf", "1", "123", 123)) == [1, 2, 123]
 ```
+```haskell
+filterList [Right 1, Right 2, Left "a", Left "b"] == [1,2]
+filterList [Right 1, Left "a", Left "b", Right 0, Right 15] == [1,0,15]
+filterList [Right 1, Right 2, Left "aasf", Left "1", Left "123", Right 123] == [1,2,123]
+```
